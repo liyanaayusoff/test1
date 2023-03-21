@@ -1,0 +1,87 @@
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  color: black;
+  margin: 10px;
+}
+
+.registartion-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  color: #000;
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: #B1A4B6;
+  padding: 20px;
+  border-radius:10px;
+  border: 2px solid #725F78;
+}
+
+.center {
+  margin: auto;
+}
+
+.registartion-form input,
+.registartion-form select,
+.registartion-form textarea {
+  border: none;
+  padding: 5px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  width: 300px;
+}
+
+.registartion-form input:focus,
+.registartion-form textarea:focus {
+  box-shadow: 3px 3px 10px rgb(228, 228, 228), -3px -3px 10px rgb(224, 224, 224);
+}
+
+.btn {
+	width: 300px;
+	border: none;
+	background-color: #725F78;
+	height: 40px;
+	color: white;
+	font-weight:bold;
+	cursor: pointer;
+	  border-radius:10px;
+	
+}
+
+.btn:hover{
+	border: 3px solid white;
+		  border-radius:10px;
+		
+}
+
+a{
+		text-decoration: none;
+
+}
+
+.acc {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #725F78;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.acc:hover{
+	border: 3px solid white;
+		  border-radius:10px;
+		
+}
